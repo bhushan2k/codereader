@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Yelp</string>
+    <string name="hotel_name">Dominos Pizza</string>
+    <string name="hotel_address">100m. Ram Maruti Road.</string>
+    <string name="hotel_status">Currently OPEN</string>
+    <string name="hotel_rating">4.0</string>
+    <string name="radius_selector">Radius Selector</string>
+</resources>
