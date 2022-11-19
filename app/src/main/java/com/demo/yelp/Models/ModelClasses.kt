@@ -1,4 +1,4 @@
-package com.demo.yelp.model
+package com.demo.yelp.Models
 
 data class ResponseModel (
     val businesses: ArrayList<Business>,

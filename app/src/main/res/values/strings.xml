@@ -5,4 +5,6 @@
     <string name="hotel_status">Currently OPEN</string>
     <string name="hotel_rating">4.0</string>
     <string name="radius_selector">Radius Selector</string>
+    <string name="default_menu_1_title">Use NYC</string>
+    <string name="default_menu_2_title">Use Current Location</string>
 </resources>

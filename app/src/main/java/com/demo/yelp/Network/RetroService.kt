@@ -1,6 +1,6 @@
-package com.demo.yelp.network
+package com.demo.yelp.Network
 
-import com.demo.yelp.model.ResponseModel
+import com.demo.yelp.Models.ResponseModel
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Header
@@ -12,6 +12,8 @@ interface RetroService {
     fun search(
         @Header("Authorization") authHeader: String?,
         @Query("location") location: String?,
+        @Query("latitude") latitude	: String?,
+        @Query("longitude") longitude: String?,
         @Query("limit") limit: String?,
         @Query("radius") radius: String?,
         @Query("sort_by") sort_by: String?,
