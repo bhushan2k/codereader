@@ -1,4 +1,4 @@
-package com.demo.yelp.Network
+package com.demo.yelp.network
 
 val BASE_URL = "https://api.yelp.com/"
 var API_KEY =

@@ -1,13 +1,12 @@
-package com.demo.yelp.ViewModels
+package com.demo.yelp.viewModels
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.demo.yelp.Models.ResponseModel
-import com.demo.yelp.Network.API_KEY
-import com.demo.yelp.Network.DEMO_CITY
-import com.demo.yelp.Network.RetroInstance
-import com.demo.yelp.Network.RetroService
+import com.demo.yelp.models.ResponseModel
+import com.demo.yelp.network.API_KEY
+import com.demo.yelp.network.RetroInstance
+import com.demo.yelp.network.RetroService
 import retrofit2.Call
 import retrofit2.Response
 

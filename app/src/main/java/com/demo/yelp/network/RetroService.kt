@@ -1,6 +1,6 @@
-package com.demo.yelp.Network
+package com.demo.yelp.network
 
-import com.demo.yelp.Models.ResponseModel
+import com.demo.yelp.models.ResponseModel
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Header

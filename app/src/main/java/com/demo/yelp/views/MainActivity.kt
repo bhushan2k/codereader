@@ -1,6 +1,6 @@
-package com.demo.yelp.Views
+package com.demo.yelp.views
 
-import com.demo.yelp.LocationUtils.MESSENGER_INTENT_KEY
+import com.demo.yelp.locationUtils.MESSENGER_INTENT_KEY
 import android.Manifest
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -15,7 +15,6 @@ import android.provider.Settings
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
 import android.widget.SeekBar
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
@@ -25,10 +24,10 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.demo.yelp.R
-import com.demo.yelp.LocationUtils.LocationUpdatesService
-import com.demo.yelp.Models.ResponseModel
-import com.demo.yelp.Network.DEMO_CITY
-import com.demo.yelp.ViewModels.RecyclerActivityViewModel
+import com.demo.yelp.locationUtils.LocationUpdatesService
+import com.demo.yelp.models.ResponseModel
+import com.demo.yelp.network.DEMO_CITY
+import com.demo.yelp.viewModels.RecyclerActivityViewModel
 import com.google.android.gms.common.api.ApiException
 import com.google.android.gms.common.api.ResolvableApiException
 import com.google.android.gms.location.LocationRequest

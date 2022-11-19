@@ -1,4 +1,4 @@
-package com.demo.yelp.LocationUtils;
+package com.demo.yelp.locationUtils;
 
 import android.content.Context;
 import android.location.Location;

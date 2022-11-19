@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_yelp_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.demo.yelp.Views.MainActivity">
+        <activity android:name="com.demo.yelp.views.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <service
-            android:name=".LocationUtils.LocationUpdatesService"
+            android:name=".locationUtils.LocationUpdatesService"
             android:label="My Job Service Update "
             android:permission="android.permission.BIND_JOB_SERVICE" />
 

@@ -1,4 +1,4 @@
-package com.demo.yelp.Network
+package com.demo.yelp.network
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

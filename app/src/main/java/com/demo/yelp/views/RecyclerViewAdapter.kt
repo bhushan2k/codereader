@@ -1,12 +1,12 @@
-package com.demo.yelp.Views
+package com.demo.yelp.views
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.demo.yelp.Models.Business
+import com.demo.yelp.models.Business
 import com.demo.yelp.R
-import com.demo.yelp.Models.ResponseModel
+import com.demo.yelp.models.ResponseModel
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.recyclerview_row.view.*
 
